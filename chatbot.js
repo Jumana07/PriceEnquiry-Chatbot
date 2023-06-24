@@ -16,10 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
     function getProductPrice(productName) {
         // Replace this with your own logic to retrieve prices from a database or API
         var prices = {
-            'blackforest','whiteforest': 350-halfkg,
-            'redvelvet': 450-halfkg,
-            'chocofudge': 550-halfkg,
-            'fruitcream': 500-halfkg
+            'blackforest': 350,
+            'whiteforest': 350,
+            'redvelvet': 450,
+            'chocofudge': 550,
+            'fruitcream': 500
         };
         return prices[productName.toLowerCase()] || 'Sorry, I don\'t have the price for that product.';
     }
