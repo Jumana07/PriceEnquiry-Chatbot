@@ -46,3 +46,86 @@ It is a simple Chatbot Skeleton project, Created basecode Logic from ChatGPT AI 
 ---
 
 That concludes the documentation for the Price Enquiry Chatbot example. Remember to customize and expand upon the code as needed to fit your specific requirements and use cases.
+
+## Documentation for Price Enquiry Chatbot App
+
+# Price Enquiry Chatbot
+
+## Overview
+The Price Enquiry Chatbot is a web-based chatbot developed by Jumana Haseen. The chatbot is designed to assist users in obtaining price information for various products or services. This documentation provides an overview of the project structure, dependencies, customization, and usage instructions.
+
+## Project Structure
+The project structure for the Price Enquiry Chatbot is as follows:
+
+```
+PriceEnquiry-Chatbot/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── main.js
+│   └── chatbot.js
+└── images/
+    ├── chatbot-icon.png
+    ├── product1.jpg
+    └── ...
+```
+
+- `index.html`: The main HTML file that serves as the entry point to the chatbot application.
+- `css/style.css`: The CSS file containing custom styles for the chatbot interface.
+- `js/main.js`: The main JavaScript file responsible for handling user interactions and chatbot functionality.
+- `js/chatbot.js`: The JavaScript file containing the chatbot logic and response generation.
+- `images/`: A directory containing images used in the chatbot interface.
+
+## Getting Started
+To use the Price Enquiry Chatbot locally, follow these steps:
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/jumana07/PriceEnquiry-Chatbot.git
+   ```
+
+2. Open the `index.html` file in a web browser.
+
+## Dependencies
+The Price Enquiry Chatbot utilizes the following dependencies:
+
+- None.
+
+## Customization
+Jumana Haseen has developed the Price Enquiry Chatbot with a basic interface and functionality. The project's customization options include:
+
+- Customization of the CSS (style.css) file to modify the appearance, colors, and layout of the chatbot interface.
+- Utilization of the JavaScript files (`main.js` and `chatbot.js`) to add additional functionality or customize the chatbot behavior and responses.
+
+## Usage
+To interact with the Price Enquiry Chatbot, follow these instructions:
+
+1. Open the `index.html` file in a web browser.
+2. The chatbot interface will be displayed, allowing you to enter queries or questions.
+3. Type your price enquiry or product-related question in the chatbot input field.
+4. The chatbot will generate a response with relevant price information or provide appropriate instructions.
+5. Continue the conversation by entering further queries or questions.
+
+## Examples
+Here is a screenshot showcasing the Price Enquiry Chatbot:
+
+![Chatbot Interface](/path/to/chatbot-interface.png)
+*Description: This screenshot showcases the chatbot interface. Users can interact with the chatbot by entering queries or questions.*
+
+## Contributing
+Contributions to the Price Enquiry Chatbot project are not currently open. However, feel free to contact Jumana Haseen for any feedback or suggestions.
+
+## License
+The Price Enquiry Chatbot is not currently licensed.
+
+## Resources
+Here are some resources that were helpful during the development of the Price Enquiry Chatbot:
+
+- Chatbot Development Guide: [link](https://www.sitepoint.com/how-to-build-your-own-ai-chatbot-from-scratch/)
+
+## Author
+The Price Enquiry Chatbot was developed by Jumana Haseen.
+
+## Conclusion
+The Price Enquiry Chatbot provides a simple and interactive way for users to obtain price information and product-related queries.
